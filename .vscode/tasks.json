@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        // {
+        //     "label": "cmake",
+        //     "options": {
+        //         "cwd": "${workspaceFolder}/build"
+        //     },
+        //     "type": "shell",
+        //     "command": "cmake -G 'Unix Makefiles' -DCMAKE_BUILD_TYPE=Debug .. "
+        // },
+        {
+            "label": "make",
+            "type": "shell",
+            "command": "/usr/bin/make",
+            "args": [
+                "-C",
+                "${workspaceFolder}/build"
+            ]
+        }//,
+        // {
+        //     "type": "colcon",
+        //     "group": "build",
+        //     "problemMatcher": [],
+        //     "label": "colcon: build"
+        // },
+    ]
+}

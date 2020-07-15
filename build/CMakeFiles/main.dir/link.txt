@@ -1,0 +1,1 @@
+/usr/bin/c++    -g   CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/binarytree.cpp.o CMakeFiles/main.dir/solution.cpp.o  -o main -rdynamic 

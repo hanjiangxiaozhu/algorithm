@@ -1,0 +1,15 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/kinetic/lib/python2.7/dist-packages"
+    ],
+    "files.associations": {
+        "vector": "cpp",
+        "string": "cpp",
+        "random": "cpp",
+        "svd": "cpp",
+        "functional": "cpp",
+        "bitset": "cpp",
+        "algorithm": "cpp",
+        "*.txx": "cpp"
+    }
+}
